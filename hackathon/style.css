@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+     color: white; 
+    font-size: 1.2rem;
+}
+.items{
+    display: flex;
+    list-style: none;
+    padding-top: 7px;
+    margin-left: 270px;
+    
+}
+body{
+    background-image: url(./audience-1853662.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.items li{
+    margin-left: 10px;
+    margin: 0px 10px;
+    padding:6px;
+    /* border: 0.1px solid orange; */
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.items li:hover{
+    background-color: orange;
+    color: red
+}
+.right{
+    display: flex;
+    list-style: none;
+    padding-left: 310px;
+    padding-top: 14px;
+    
+}
+.na{
+    background-color:black;
+    opacity: 0.7;
+    height: 3rem;
+
+}
+.navbar img{
+    height: 3rem;
+    width: 50px;
+}
+.con2{
+    font-size: 2rem;
+    color: white;
+    max-width: 30%;
+    text-align: center;
+margin-top:30px ;    
+}
+.contaner{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.contaner div{
+    width: 30%;
+    border: 2px solid orange;
+    color: bisque;
+    height: 220px;
+}
+.contaner button{
+    background-color: rgb(203, 227, 68);
+    color: black;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.con1{
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+    
+}
+.contaner div:hover{
+    box-shadow: 5px 10px 10px 5px;
+}
+div h1{
+    text-align: center;
+}
+.con{
+    /* height: 500px; */
+}
